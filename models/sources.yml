@@ -4,8 +4,8 @@ sources:
   - name: raw_data
     database: finance_db
     schema: raw
-    rables:
-    - name: customers
-    - name: orders
-    - name: order_item
-    - name: products
+    tables:
+      - name: customers
+      - name: orders
+      - name: order_item
+      - name: products
