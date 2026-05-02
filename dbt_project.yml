@@ -32,6 +32,6 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   snowflake_data_project:
     staging:
-      +materialized: view
+      +materialized: view  # Apply this to all staging models
     marts:
-      +materialized: table
+      +materialized: table  # Apply this to all data mart models
